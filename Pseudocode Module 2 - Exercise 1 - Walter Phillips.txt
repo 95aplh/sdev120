@@ -1,0 +1,10 @@
+start // The purpose of this code is to calculate a refrigerator's capacity in cubic feet. 
+   input fridgeModel
+   input height
+   input width
+   input depth
+   constant cubicInPerCubicFoot = 1728
+   capacity = (height)(width)(depth) / cubicInPerCubicFoot
+   output fridgeModel
+   output capacity
+stop

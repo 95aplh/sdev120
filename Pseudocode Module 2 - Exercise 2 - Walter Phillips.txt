@@ -1,0 +1,17 @@
+start
+   // The purpose of this application is to calculate the fee for a checking account based on
+   // existing account balance and amount of times overdrawn.
+   accountBalance = 0
+   overDrawnFee = 0
+   input accountBalance
+   input overDrawnTimes
+   // Calculate overdrawn fee
+   overDrawnFee = (accountBalance)(.01) - (5)(overDrawnTimes)
+   currentBalance = accountBalance - overDrawnFee
+   output "Overdraft fee:" overDrawnFee
+   output "Current balance:" currentBalance
+   output "Thanks for using this program"
+stop
+
+
+
